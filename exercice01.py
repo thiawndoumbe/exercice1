@@ -47,7 +47,7 @@ while i< len(coordinates):
     i=i+1
 print(dict_coordinates)   
 """
-"""
+
 coordinates=[(4,5),(9,3),(12,8),(13,7),(18,6),(20,9)]
 i=0
 coordinates2=[]
@@ -62,7 +62,7 @@ while i< len(coordinates):
      coordinates2.append(nouveau_point)    
      i=i+1
 print(coordinates2)     
-"""
+
 """
 coordinates=[(4,3),(9,3),(12,7),(13,7),(18,6),(20,19)]
 coordinates2=[]
