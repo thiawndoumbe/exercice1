@@ -47,7 +47,7 @@ while i< len(coordinates):
     i=i+1
 print(dict_coordinates)   
 """
-
+"""
 coordinates=[(4,5),(9,3),(12,8),(13,7),(18,6),(20,9)]
 i=0
 coordinates2=[]
@@ -62,7 +62,7 @@ while i< len(coordinates):
      coordinates2.append(nouveau_point)    
      i=i+1
 print(coordinates2)     
-
+"""
 """
 coordinates=[(4,3),(9,3),(12,7),(13,7),(18,6),(20,19)]
 coordinates2=[]
@@ -76,7 +76,94 @@ for i in coordinates :
     coordinates2.append(nouveau_point)    
 print(coordinates2) 
 """
+# Exercice9
 
+chaine="Ce beau beau beau pays Un pays que je veux remettre sur pied"
+res=chaine.replace("je veux","Assim veut")
+print(res)
+res=chaine.split()
+print(res)
+dict_mots={}
+for i in res:
+    if i not in dict_mots.keys():
+        dict_mots[i]=1
+    else:
+        dict_mots[i] +=1
+print(dict_mots) 
+def f(ch):
+    res=ch.replace("je veux","Assim veut")
+    return res
+print(f("je veux manger"))
+
+
+chaine="Ce beau beau beau pays Un pays que"
+def h(chaine):
+    res=chaine.split()
+    return res
+print(h("je veux ce beau"))
+
+ch="Ce beau beau beau pays Un pays que"
+res=ch.split()
+dict_mots={}
+def g(ch):
+    for i in res:
+        if i not in dict_mots.keys():
+            dict_mots[i]=1
+        else:
+            dict_mots[i] +=1
+d1=f("je veux ce pays")   
+d2=h(d1)         
+            
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+   
+    
 
 
 
